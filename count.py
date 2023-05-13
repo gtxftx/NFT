@@ -7,7 +7,7 @@ import requests
 # Define the OpenSea API endpoint
 endpoint = "https://api.opensea.io/api/v1/assets"
 
-# Define the function to count the number of NFTs in a collection
+# Define the function to count the number of NFTs in a collection or album
 def count_nfts_in_collection(contract_address, collection_name):
     # Make a GET request to the OpenSea API to retrieve the assets
     params = {
